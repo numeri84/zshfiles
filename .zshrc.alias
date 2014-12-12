@@ -1,0 +1,41 @@
+# リロード設定
+alias _r="source ~/.zshrc"
+alias reload="source ~/.zshrc"
+
+# ls
+alias ls='ls -F --color'
+alias sl='ls -F --color'
+alias la='ls -a --color'
+alias lsa='ls -la --color'
+alias ll='ls -l --color'
+
+# directory
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+# git
+alias g='git'
+alias gi='git'
+alias gs='git status'
+alias gc='git commit'
+alias gb='git branch'
+alias gl='git log'
+alias gp='git pull'
+alias gf='git fetch'
+alias gca='git commit -a'
+alias gd='git diff HEAD'
+alias gco='git checkout'
+alias gg='git grep'
+
+# rails
+alias rc='bundle exec rails c'            # staging環境でrails console起動
+alias rr='bundle exec rake routes'
+alias be='bundle exec'
+
+# grep
+alias grep="grep --color"
+
+# tmux
+alias tmux-copo='tmux save-buffer - | pbcopy'
